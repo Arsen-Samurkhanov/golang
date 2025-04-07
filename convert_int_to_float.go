@@ -8,3 +8,4 @@ var y float64 = float64(x)
 func main() {
 	fmt.Printf("%.3f\n", y)
 }
+
