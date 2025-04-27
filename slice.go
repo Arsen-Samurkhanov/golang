@@ -11,4 +11,7 @@ func main() {
 
 	fmt.Println(seaCreatures)
 
+	ocean := make([]string, 3, 5)
+	fmt.Println(ocean)
+
 }
