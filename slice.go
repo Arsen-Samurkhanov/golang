@@ -11,7 +11,11 @@ func main() {
 
 	fmt.Println(seaCreatures)
 
-	ocean := make([]string, 3, 5)
-	fmt.Println(ocean)
+	// ocean := make([]string, 3, 5)
+	// fmt.Println(ocean)
+
+	// remove item from slice
+	seaCreatures = append(seaCreatures[:4], seaCreatures[5:]...)
+	fmt.Printf("%q", seaCreatures)
 
 }
