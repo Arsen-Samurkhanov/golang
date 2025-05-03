@@ -10,7 +10,9 @@ func capitalize(name string) string {
 }
 
 func main() {
-	name := "arsen"
+	var name string
+	fmt.Println("Emter your name in lower case")
+	fmt.Scanln(&name)
 	fmt.Println(capitalize(name))
 
 }
