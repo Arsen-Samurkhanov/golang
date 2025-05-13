@@ -15,7 +15,7 @@ func main() {
 	// fmt.Println(ocean)
 
 	// remove item from slice
-	seaCreatures = append(seaCreatures[:4], seaCreatures[5:]...)
+	seaCreatures = append(seaCreatures[:4], seaCreatures[5:]...) //remove seahorse
 	fmt.Printf("%q", seaCreatures)
 
 }
