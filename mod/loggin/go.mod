@@ -1,0 +1,1 @@
+module github.com/Arsen-Samurkhanov/golang/tree/main/mod/loggin
