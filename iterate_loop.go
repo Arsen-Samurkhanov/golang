@@ -13,4 +13,9 @@ func main() {
 	for i, shark := range sharks {
 		fmt.Println(i, shark)
 	}
+	fmt.Println("\n")
+
+	for _, shark := range sharks {
+		fmt.Println(shark)
+	}
 }
