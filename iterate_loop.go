@@ -18,4 +18,13 @@ func main() {
 	for _, shark := range sharks {
 		fmt.Println(shark)
 	}
+	fmt.Println("\n")
+
+	integers := make([]int, 10)
+	fmt.Println(integers)
+
+	for i := range integers {
+		integers[i] = i
+	}
+	fmt.Println(integers)
 }
