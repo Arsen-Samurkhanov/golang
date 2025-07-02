@@ -27,4 +27,18 @@ func main() {
 		integers[i] = i
 	}
 	fmt.Println(integers)
+	fmt.Println("\n")
+
+	sammy := "Sammy"
+	for _, letter := range sammy {
+		fmt.Printf("%c\n", letter)
+	}
+	fmt.Println("\n")
+
+	sammyShark := map[string]string{"name": "Sammy", "animal": "shark", "color": "blue", "location": "ocean"}
+
+	for key, value := range sammyShark {
+		fmt.Println(key + ": " + value)
+	}
+
 }
