@@ -11,6 +11,7 @@ func main() {
 	fmt.Println(creature.Random())
 	fmt.Println(creature.Random())
 	fmt.Println(creature.Random())
+
 	fmt.Println(creature.Random())
 
 }
