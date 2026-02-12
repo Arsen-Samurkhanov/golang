@@ -1,0 +1,12 @@
+[Unit]
+Description=hellow world service 
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/home/arsen/Desktop/Go/lab/hw-service/hw
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
